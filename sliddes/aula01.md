@@ -11,8 +11,13 @@ style: |
     } 
     h2 {
         text-decoration: underline;
+    }    
+    pre {
+        float: left;
+        width: 45%;
+        margin-right: 5px;
+        margin-top: 0px
     }
-    
 ---
 
 ![bg left:25% 50%](./ifrn-vertical.png)
@@ -73,14 +78,7 @@ Os elementos `h1` e `p` são elementos de nível de bloco. O elemento `a` é um 
   
 - O código abaixo aplica em qualquer âncora (anchor) o `display: block` quando a classe `.block` é usada.
 
-<style> 
-    pre {
-        float: left;
-        width: 45%;
-        margin-right: 5px;
-        margin-top: 0px
-    }
-</style>
+
 
 ```css
     /* Código CSS */
@@ -117,13 +115,61 @@ Os elementos `h1` e `p` são elementos de nível de bloco. O elemento `a` é um 
 - Vejamos como configurar um layout simples com os seguintes elementos: `<header>`, `<asise>`, `<section>` e `<footer>`.
 
 
-Verical align tag
+<!-- Verical align tag
 
 https://www.w3schools.com/css/css_inline-block.asp
 
 
 https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4
 
-https://www.treinaweb.com.br/blog/css-float-vs-inline-block-qual-usar-em-meus-layouts
+https://www.treinaweb.com.br/blog/css-float-vs-inline-block-qual-usar-em-meus-layouts -->
 
 ---
+
+![bg center: 80%](./image3.png)
+
+--- 
+
+# Fluxo Normal e Layouts
+
+- O design apresentado no slide anterior foi construído com base no uso da propriedade `display` e fluxo normal de desenho dos elementos.
+
+- Dois pontos imporntantes no css deste exemplos são destantes:
+
+```css
+section {
+    margin-left: -4px;
+    vertical-align: top;    
+}
+```
+
+No exemplo prático, veremos que estas duas propridades não sendo definidas na regra. Fazem com que a seção fique desalinhada em relação ao aside.
+
+--- 
+
+# Fluxo Normal
+
+- Note que usamos as propriedades `inline-block` e `block` aplicados a alguns elementos.
+
+- Quando definimos um elemento com `display: inline` não podemos alterar a altura (height) e largura (width) deste elemento. 
+  
+- Mas tem situações que precisamos mudar o elemento de `display: block` para `display: inline`.
+
+- Nessa situação, aplica-se o `display: inline`
+
+--- 
+
+# display: table (legado)
+
+- Legado
+
+- Situações de uso -  browsers antigos que não suportam `flex` e `grid`.
+
+- Usa-se a propriedade `display:table` e depois aplica `display: table-row` e `display: table-cell`. 
+  
+- Desse modo, os elementos vão se comportar como uma tabela HTML.
+
+---
+
+# display: table (legado)
+
