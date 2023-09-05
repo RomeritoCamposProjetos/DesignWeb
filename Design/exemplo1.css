@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+div.container {
+    margin: 0 10%;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: #713924;
+    text-align: right;
+}
+
+section {
+    display: inline-block;    
+    width: 75%;    
+    height: 100vh;
+    padding: 10px 20px;    
+    border: 1px solid black;
+    background-color: #dcc4bc;
+    margin-left: -4px; 
+    /* hack na margem para garantir que fiquem econstados */
+    /* usa inline-block para definir tamnaho do elemento */
+}
+
+aside {
+    display: inline-block;
+    width: 25%;
+    height: 100vh;
+    padding: 10px 20px;
+    border: 1px solid black; 
+    background-color: #947c74;    
+}
+
+.menu > li{
+    display: inline-block;
+    padding: 30px 10px; 
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #f9d57f;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.menu > li > a:hover {
+    background-color: #dcc4bc;
+    color: #713924;
+    border-radius: 5px;
+}
+
