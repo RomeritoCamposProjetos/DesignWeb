@@ -116,6 +116,9 @@ Os elementos `h1` e `p` são elementos de nível de bloco. O elemento `a` é um 
 
 - Vejamos como configurar um layout simples com os seguintes elementos: `<header>`, `<asise>`, `<section>` e `<footer>`.
 
+
+Verical align tag
+
 https://www.w3schools.com/css/css_inline-block.asp
 
 

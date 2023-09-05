@@ -12,8 +12,15 @@ div.container {
 header {
     height: 120px;
     width: 100%;
-    padding: 10px 20px;
-    border: 1px solid black;
+    padding: 10px 20px;    
+    background-color: #713924;
+    text-align: right;
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    padding: 10px 20px;    
     background-color: #713924;
     text-align: right;
 }
@@ -21,39 +28,81 @@ header {
 section {
     display: inline-block;    
     width: 75%;    
-    height: 100vh;
-    padding: 10px 20px;    
-    border: 1px solid black;
+    height: 100vh;        
     background-color: #dcc4bc;
-    margin-left: -4px; 
+
+    margin-left: -4px;
     /* hack na margem para garantir que fiquem econstados */
     /* usa inline-block para definir tamnaho do elemento */
+    
+    vertical-align: top;
+    /* alinhar o a section com o aside */
+    
+    
 }
 
 aside {
     display: inline-block;
+    text-align: center;
     width: 25%;
-    height: 100vh;
-    padding: 10px 20px;
-    border: 1px solid black; 
-    background-color: #947c74;    
+    height: 100vh;    
+    
+    background-color: #947c74; 
+    margin-bottom: -10px;   
+    
 }
 
-.menu > li{
+.menu_nav {
+    list-style: none;
+}
+
+.menu_nav > li{
     display: inline-block;
     padding: 30px 10px; 
 }
 
-.menu > li > a {
+.menu_nav > li > a {
     text-decoration: none;
     color: #f9d57f;
     padding: 10px;
     font-size: 24px;
 }
 
-.menu > li > a:hover {
+.menu_nav > li > a:hover {
     background-color: #dcc4bc;
     color: #713924;
     border-radius: 5px;
 }
 
+.menu_side {
+    padding: 30px 0px;
+}
+
+.menu_side > li {
+    text-align: center;        
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.menu_side > li > a {    
+    display: inline-block;
+    width: 70%;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: #713924;
+    background-color: #dcc4bc;
+    border-radius: 5px;
+    border-top: 2px solid #713924;
+    border-left: 1px solid #713924;
+    
+} 
+
+.menu_side > li > a:hover {    
+    background-color: #f9d57f;
+    color: #713924;
+}
+
+.cuscuz {
+    padding: 25px 0px 5px;
+    width: 30%;
+}
