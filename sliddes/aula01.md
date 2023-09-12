@@ -1,6 +1,7 @@
 ---
 marp: true
 theme: gaia
+footer: Design Web - Prof. Romerito Campos
 _class: lead
 size: 16:9
 backgroundColor: #fff
@@ -20,7 +21,7 @@ style: |
     }
 ---
 
-![bg left:25% 50%](./ifrn-vertical.png)
+![w:120 h:120](./ifrn-vertical.png)
 # Design Web
 Prof. Romerito Campos
 
@@ -106,7 +107,7 @@ Os elementos `h1` e `p` são elementos de nível de bloco. O elemento `a` é um 
 ![bg center: 70%](./image2.png)
 
 ---
-# Fluxo Normal e Layouts
+## Fluxo Normal e Layouts
 
 - É possível utilizar fluxo normal de desenho dos elementos para gerar um layout de uma aplicação
 
@@ -130,7 +131,7 @@ https://www.treinaweb.com.br/blog/css-float-vs-inline-block-qual-usar-em-meus-la
 
 --- 
 
-# Fluxo Normal e Layouts
+## Fluxo Normal e Layouts
 
 - O design apresentado no slide anterior foi construído com base no uso da propriedade `display` e fluxo normal de desenho dos elementos.
 
@@ -147,7 +148,7 @@ No exemplo prático, veremos que estas duas propridades não sendo definidas na 
 
 --- 
 
-# Fluxo Normal
+## Fluxo Normal
 
 - Note que usamos as propriedades `inline-block` e `block` aplicados a alguns elementos.
 
@@ -159,7 +160,7 @@ No exemplo prático, veremos que estas duas propridades não sendo definidas na 
 
 --- 
 
-# display: table (legado)
+## display: table (legado)
 
 - Legado
 
@@ -171,5 +172,58 @@ No exemplo prático, veremos que estas duas propridades não sendo definidas na 
 
 ---
 
-# display: table (legado)
+## display: table (legado)
+
+- É possível usar tanto a marcação HTML quanto as regras CSS para definir layouts utilizando tabelas.
+
+- Com a marcação HTML, as tags `table,th,tr,td`. Por outro lado, com CSS podemos utilizar a propriedade `display: table` desenhando elementos como tabela.
+
+- No exemplo, a seguir vamos utilizar o seguinte display para os elementos:
+  - `display: table` - `display: table-row`  - `display: table-cell`
+
+---
+
+![bg center: 80%](./imagem4.jpg)
+
+
+---
+
+## multi-column layout
+
+- É possível aplicar a um container um design com múltiplas colunas. Neste caso, não alteramos a propriedade display.
+
+
+- Podemos utilizar a propriedade:
+  - `columns: 3`: que aplicará uma divisão do eleemento container em 3 colunas;
+  - `column-count`: indica o número fixo de colunas;
+  - `column-width`: indica a largura da coluna.
+  
+- Vejamos um exemplo onde podemos aplicar o layout com múltiplas colunas em container.
+
+---
+
+![bg center: 80%](./imagem5.jpg)
+
+---
+
+## `float: left` e `float: right`
+
+- A propriedade `float` faz com que o elemento saiam do fluxo normal.
+
+- Esta propriedade permite que o alinhamento dos elementos os agrupem de maneira que um layout possa ser concluído
+
+- Aplicar float terá praticamente o mesmo efeito de usar `display: block`, `display: inline-block` e `display: inline`.
+
+- Vejamos mais exemplos.
+
+---
+
+## Referências
+
+
+AUTOR. *CSS Layout*. Mozilla Developer Network, 2021. Disponível em: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Introduction#the_display_property. Acesso em: 05/09/2023.
+
+Mozilla Developer Network (MDN). "CSS Layout - Fluxo Normal." Mozilla Developer Network, 2023. Disponível em: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Normal_Flow. Acesso em: 05/09/2023.
+
+Bruno, Marco. Pare de chutar e aprenda como funciona o display: inline-block. *Medium*, Disponível em: https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4. Acesso em: 05/09/2023.
 
