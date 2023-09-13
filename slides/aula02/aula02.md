@@ -388,3 +388,145 @@ h1 {
 
 ---
 
+# Propriedade justify-content
+
+- permite controle sobre o uso do espaço no eixo `main`(principal).
+
+- há 5 opções de valores:
+  - flex-start (padrão)
+  - flex-end
+  - space-between
+  - space-around
+  - center
+
+---
+# Propriedade justify-content
+
+- flex-end : [Exemplo 12](http://localhost:8000/exemplo12.html)
+
+```css
+.container {
+    display: flex;
+    justify-content: flex-end;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.box {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+```
+
+```html
+<div class="container">
+    <div class="box">
+        Texto 1
+    </div>
+    <div class="box">
+        Texto 2
+    </div>
+    <div class="box">
+        Texto 3
+    </div>
+</div>
+```
+
+---
+
+# Propriedade justify-content
+- space-between: [Exemplo 13](http://localhost:8000/exemplo13.html)
+
+```css
+.container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.box {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+```
+```html
+<div class="container">
+    <div class="box">
+        Texto 1
+    </div>
+    <div class="box">
+        Texto 2
+    </div>
+    <div class="box">
+        Texto 3
+    </div>
+</div>
+```
+
+---
+# Propriedade justify-content
+
+- space-around : [Exemplo 14](http://localhost:8000/exemplo14.html)  
+
+```css
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.box {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+```
+
+```html
+<div class="container">
+    <div class="box">
+        Texto 1
+    </div>
+    <div class="box">
+        Texto 2
+    </div>
+    <div class="box">
+        Texto 3
+    </div>
+</div>
+```
+
+---
+
+# Propriedade justify-content
+- center : [Exemplo 15](http://localhost:8000/exemplo15.html)
+
+
+```css
+.container {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.box {
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+```
+
+```html 
+<div class="container">
+    <div class="box">
+        Texto 1
+    </div>
+    <div class="box">
+        Texto 2
+    </div>
+    <div class="box">
+        Texto 3
+    </div>
+</div>
+```
+
+---
+
+# Referências
