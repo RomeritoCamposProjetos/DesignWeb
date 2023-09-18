@@ -51,6 +51,23 @@ Prof. Romerito Campos
 
 ---
 
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+h1 {
+    text-align:center;
+}
+</style>
+
+# Container Flex
+
+---
+
 # Container Flex
 
 - A propridade que permite definir um elemento como container flex é `display: flex`.
@@ -122,6 +139,22 @@ Observe no link abaixo que os elementos se comportam como elementos inline. Entr
 
 ---
 
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+h1 {
+    text-align:center;
+}
+</style>
+
+# Propriedade flex-direction
+
+---
 # Propriedade flex-direction
 
 - Este propriedade permite controlar a direção do eixo-principal, consequentemente do eixo perpendicular.
@@ -289,6 +322,22 @@ div {
 [Exemplo 7 ](http://localhost:8000/exemplo07.html)
 
 --- 
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+h1 {
+    text-align:center;
+}
+</style>
+
+# Propriedade flex-wrap
+
+---
 
 # Propriedade flex-wrap
 
