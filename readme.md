@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
     .container {
         display: flex;
         flex-wrap: wrap;
@@ -21,7 +21,7 @@
     .link {
         flex: 1 1 100px;
     }
-</style>
+</style> -->
 
 # Design Web e Arquitetura da Informção
 
