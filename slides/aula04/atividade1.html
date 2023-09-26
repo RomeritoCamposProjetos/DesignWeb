@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .header, .footer {
+            display: flex;
+            height: 60px;
+            background-color: bisque;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button {
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: bisque;
+            border-radius: 5px;
+            width: 100px;
+            text-align: center;
+        }
+
+        .main {
+            display: flex;          
+            flex-wrap: wrap;  
+            flex-grow: 1; 
+            padding: 20px;          
+        }
+
+        .card {
+            flex-grow: 1;
+            border: 1px solid black;
+            margin: 5px;
+            flex-basis: 200px;
+        }
+
+       
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <a href="" class="button">Home</a>
+            <a href="" class="button">Contato</a>
+            <a href="" class="button">Outros</a>
+        </div>
+        <div class="main">
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+        <div class="footer">
+            <i class="fa fa-copyright" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    
+</body>
+</html>

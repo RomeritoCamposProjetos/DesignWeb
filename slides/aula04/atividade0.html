@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .header, .footer {
+            height: 60px;
+            display: flex;
+            background-color: bisque;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            justify-content: center;
+        }
+
+        .card {            
+            border: 1px solid black;
+            width: 32%;            
+            margin: 5px;
+        }
+
+        .button {
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            background-color: black;
+            color: bisque;
+            border-radius: 5px;
+            width: 100px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <a href="" class="button">Home</a>
+            <a href="" class="button">Contato</a>
+            <a href="" class="button">Outros</a>
+        </div>
+        <div class="main">
+            <div class="card">
+                texto
+            </div>
+            <div class="card">
+                texto
+            </div>
+            <div class="card">
+                texto
+            </div>
+        </div>
+        <div class="footer">
+            Copryright
+        </div>
+        
+    </div>
+    
+</body>
+</html>

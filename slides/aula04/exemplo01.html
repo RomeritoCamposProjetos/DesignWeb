@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: flex;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .box {
+            width: 250px;
+            border: 1px solid black;            
+        }
+
+       
+
+    </style>
+
+</head>
+<body>
+
+    <p>Proporções iguais de encolhimento - Valor padrão</p>
+    <div class="container">
+        <div class="box">
+            width: 250px;
+        </div>
+        <div class="box">
+            width: 250px;
+        </div>        
+    </div>
+
+    <p>Proporções iguais de encolhimento - Valor padrão</p>
+    <div class="container">
+        <div class="box" style="flex-shrink: 1;">
+            width: 250px;
+        </div>
+        <div class="box" style="flex-shrink: 2;">
+            width: 250px;
+        </div>        
+    </div>
+    
+</body>
+</html>
