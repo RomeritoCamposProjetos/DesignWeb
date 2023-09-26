@@ -6,8 +6,8 @@ Neste repositório, disponibilizo materiais a respeito da disciplina **Design We
 
 Para produção do material, são utilizadas ferramentas tanto a nível de desenolvimento como preparação e organização do conteúdo.
 
-- Os slides são produzidos utilizando o [Marp]([https://](https://marp.app/)).
-- Adota-se o VSCode como ferramenta para programação, incluindo a extensão [LiveServer]([https://](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server)).
+- Os slides são produzidos utilizando o [Marp](https://marp.app/).
+- Adota-se o VSCode como ferramenta para programação, incluindo a extensão [LiveServer](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server).
 
 ## Como usar este material?
 
