@@ -1,28 +1,3 @@
-<!-- <style>
-    .container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;        
-    }
-    .container > div {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: space-around;
-        margin-bottom:10px;
-    }
-   
-    .date {
-        flex: 0 1 50px;
-    }
-    .topic {
-        flex: 2 1;
-    }
-    .link {
-        flex: 1 1 100px;
-    }
-</style> -->
-
 # Design Web e Arquitetura da Informção
 
 Neste repositório, disponibilizo materiais a respeito da disciplina **Design Web e Arquitetura da Informação**, que integra a grade curricular do curso de Técnico em Informática para Internet oferecido pelo IFRN (Insitituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte).
@@ -42,31 +17,8 @@ Em cada slide, encontram-se as principais observações a respeito dos tópicos 
 
 ## Aulas disponíveis
 
-<div class="container">   
-    <div>
-        <div class="date">31/08</div>
-        <div class="topic">Position/Float/Multicolumn</div>
-        <div class="link">[Aula01](./slides/aula01/aula01.md)</div>
-    </div>  
-    <div>
-        <div class="date">06/09</div>
-        <div class="topic">Fluxo Normal, propriedade Display</div>
-        <div class="link">Material</div>
-    </div>  
-    <div>
-        <div class="date">13/09</div>
-        <div class="topic">Container-flex</div>
-        <div class="link">Material</div>
-    </div>   
-    <div>
-        <div class="date">20/09</div>
-        <div class="topic">Container-flex e Item flex</div>
-        <div class="link">Material</div>
-    </div>
-    <div>
-        <div class="date">21/09</div>
-        <div class="topic">Container-flex e Item flex</div>
-        <div class="link">Material</div>
-    </div>
-</div>
-
+- 31/08 - **Position/Float/Multicolumn**
+- 06/09 - **Introdução a Layouts. Fluxo Normal, propriedade Display**
+- 13/09 - **Container-flex**
+- 20/09 - **Container flex - Item flex**
+- 21/09 - **Container flex - Item flex** 
