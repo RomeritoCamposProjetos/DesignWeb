@@ -15,10 +15,13 @@ O material é produzido semanalmente e distribuindo por este canal. Para utiliz�
 
 Em cada slide, encontram-se as principais observações a respeito dos tópicos apresentados e também exemplo com o código-fonte implementando o que é apresentado aos alunos.
 
+> [!IMPORTANT]
+> Os links para o código HTML nos slides supoem a execução de um servidor local rodando em **localhost:8000**. Você rodar usando a extensão para o LiveServer, alternativamente.
+
 ## Aulas disponíveis
 
-- 31/08 - **Position/Float/Multicolumn**
-- 06/09 - **Introdução a Layouts. Fluxo Normal, propriedade Display**
-- 13/09 - **Container-flex**
-- 20/09 - **Container flex - Item flex**
-- 21/09 - **Container flex - Item flex** 
+- 31/08/2023 - **Position/Float/Multicolumn** - [Slide](slides/aula01/aula01.pdf)
+- 06/09/2023 - **Introdução a Layouts. Fluxo Normal, propriedade Display** - [Slide](slides/aula01/aula01.pdf)
+- 13/09/2023 - **Container-flex** - [Slide](slides/aula02/aula02.pdf)
+- 20/09/2023 - **Container flex - Item flex** - [Slide](slides/aula03/aula03.pdf)
+- 21/09/2023 - **Container flex - Item flex** - [Slide](slides/aula04/aula04.pdf)
