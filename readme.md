@@ -25,3 +25,4 @@ Em cada slide, encontram-se as principais observações a respeito dos tópicos 
 - 13/09/2023 - **Container-flex** - [Slide](slides/aula02/aula02.pdf)
 - 20/09/2023 - **Container flex - Item flex** - [Slide](slides/aula03/aula03.pdf)
 - 21/09/2023 - **Container flex - Item flex** - [Slide](slides/aula04/aula04.pdf)
+- 27/09/2023 - **Item flex** - [Slide](slides/aula05/aula05.pdf)

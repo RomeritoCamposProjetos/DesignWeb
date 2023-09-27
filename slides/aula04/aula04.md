@@ -143,7 +143,7 @@ h1 {
 ```
 <br>
 
-[Exemplo](http://localhost:8000/exemplo01.html)
+[Exemplo 01](http://localhost:8000/exemplo01.html)
 
 ---
 <style scoped>
@@ -174,7 +174,7 @@ h1 {
 
 # flex-grow
 
-- Comparação sem e com flex-grow: [Exemplo](http://localhost:8000/exemplo02.html)
+- Comparação sem e com flex-grow: [Exemplo 02](http://localhost:8000/exemplo02.html)
 
 ```html
 <!-- flex-grow: 0 -->
@@ -203,11 +203,21 @@ h1 {
 
 ---
 
-# flex-grow
+# flex-basis
 
-- Fatores de crescimento diferentes
+- Especifica a largura base do item flex.
+- Quando o item tem essa propriedade definida, ela é consultada antes da propriedade `width`.
+- O tamanho do item pode ser impactado pelo seu conteúdo e pelas propriedades do modelo de caixa (`box model`).
+- Padrão inicial: `auto`.
 
+---
 
+# flex-basis
+- O tamanho do box de conteúdo pode ser impactado pelo `box-sizing`.
+- Suporta os mesmos valores que a propriedade `width`.
+    - Pode herdar o valor de seu pai através de `inherit`.
+
+[Exemplo 03](http://localhost:8000/exemplo03.html) - Exemplo de uso com flex-basis sob diferentes condições.
 
 
 
