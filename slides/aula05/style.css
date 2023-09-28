@@ -1,0 +1,31 @@
+* {
+    box-sizing: 0;    
+}
+
+.container {
+    display: flex;
+    border: 1px solid black;
+    padding: 5px;
+    height: 200px;        
+}
+
+.box {
+    border: 1px solid black;    
+    /* redundate definir */
+    flex-basis: auto;
+}
+
+.basis-0 {
+    flex-basis: 0%;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+.nota {
+    border-left: 2px solid black;
+    background-color: rgb(213, 213, 213);
+    padding: 15px;
+    font-size: 20px;
+}

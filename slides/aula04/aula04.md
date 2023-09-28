@@ -202,7 +202,21 @@ h1 {
 ```
 
 ---
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
 
+h1 {
+    text-align:center;
+}
+</style>
+# flex-basis
+
+---
 # flex-basis
 
 - Especifica a largura base do item flex.
@@ -210,14 +224,20 @@ h1 {
 - O tamanho do item pode ser impactado pelo seu conteúdo e pelas propriedades do modelo de caixa (`box model`).
 - Padrão inicial: `auto`.
 
----
 
+
+---
 # flex-basis
 - O tamanho do box de conteúdo pode ser impactado pelo `box-sizing`.
 - Suporta os mesmos valores que a propriedade `width`.
     - Pode herdar o valor de seu pai através de `inherit`.
 
 [Exemplo 03](http://localhost:8000/exemplo03.html) - Exemplo de uso com flex-basis sob diferentes condições.
+
+---
+# Referência
+
+WEYL, E. Flexbox in CSS. [s.l.] O’Reilly Media, 2017.
 
 
 

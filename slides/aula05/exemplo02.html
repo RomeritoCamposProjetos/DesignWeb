@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .box-sem-flex {
+            flex-grow: 1;
+            border: 1px solid black;
+        }
+
+        .box-com-flex{
+            flex: 1 1 auto;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo - Propriedade flex</h1>
+    <p class="nota">Exemplo de container com itens flex sem a propriedade flex</p>
+    <div class="container">
+        <div class="box-sem-flex">
+            Box 1
+        </div>
+        <div class="box-sem-flex">
+            Box 2
+        </div>
+        <div class="box-sem-flex">
+            Box 3
+        </div>
+    </div>
+
+    <br>
+
+    <p class="nota">Neste caso a propriedade <strong>flex: 1 1 auto</strong> foi utilizada.</p>
+    <div class="container">
+        <div class="box-com-flex">
+            Box 1
+        </div>
+        <div class="box-com-flex">
+            Box 2
+        </div>
+        <div class="box-com-flex">
+            Box 3
+        </div>
+    </div>
+    
+
+</body>
+</html>
