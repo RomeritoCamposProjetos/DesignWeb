@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style lang="en">
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+
+        .header, .footer {
+            display: flex;
+            flex: 0 1 100px;
+            background-color: rgb(156, 156, 60);
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        .header > h1 {
+            font-size: 30px;
+
+        }
+
+        .menu {
+            flex: 0 1 100px;
+            background-color: rgb(161, 159, 159);
+        }
+
+        .menu > ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+
+        ul > li {
+            flex: 1 1 100px;
+            margin: 10px;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: rgb(206, 206, 206);
+            text-align: center;
+        }
+
+        ul > li > a {
+            text-decoration: none;
+            color:rgb(156, 156, 60);
+            font-size: 20px;
+        }
+
+        .main {
+            display: flex;
+            flex: 1 1 100%;
+            background-color: rgb(90, 89, 89);
+            padding: 10px;
+        }   
+
+        .card {
+            display: flex;
+            flex: 1 1;
+            flex-direction: column;
+            padding: 15px;
+            background-color: rgb(206, 206, 206);
+        }
+
+        .card > button {            
+            flex: 0 1 40px;
+        }
+
+        .card > p {
+            flex: 1 0;
+        }
+
+        .banner {
+            flex: 1 0;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Power Grid: Store or Homepage</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+                <li>
+                    <a href="">Carrers</a>
+                </li>
+                <li>
+                    <a href="">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="card">
+                <img class="banner" src="./image1.png" alt="" width="300px"/>
+                <p>Texto algum aqui </p>
+                <button>Click me</button>
+            </div>
+            <div class="card">
+                <img class="banner" src="./image1.png" alt="" width="300px"/>
+                <p>Texto algum aqui </p>
+                <button>Click me</button>
+            </div>
+            <div class="card">
+                <img class="banner" src="./image1.png" alt="" width="300px"/>
+                <p>Texto algum aqui </p>
+                <button>Click me</button>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright - 2023</p>
+        </div>
+    </div>
+    
+</body>
+</html>
