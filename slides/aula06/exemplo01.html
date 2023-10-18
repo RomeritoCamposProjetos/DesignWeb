@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    
+        body {
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;            
+        }
+        .header {
+            display: flex;            
+            height: 75px;
+            background-color: antiquewhite;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .menu {
+            display: flex;
+            flex: 0 1 400px;
+            align-items: center;
+            list-style: none;
+            margin: 0px 50px;                                    
+        }
+        .menu li {
+            display: flex;            
+            flex: 1 1 auto;            
+        }
+        .menu li a {            
+            display: inline;
+            width: 150px;
+            text-align: center;
+            text-decoration: none;                                        
+            padding: 10px 20px;
+            margin-right: 10px;
+            background-color:aquamarine;
+
+        }
+
+        #nav-button{
+            display:none;
+        }
+        label{
+            display:none;
+        }
+
+        @media screen and (max-width: 600px) {
+            .menu {
+                display: none;
+            }
+
+            label{                
+                display: block;
+                padding:0px 10px;
+                font-size:30px;
+                cursor:pointer;
+                color: black;
+            }
+               
+            label:hover{
+                color:white;
+            }
+            #nav-button:checked ~ .menu{
+                display: block;
+                position: absolute;
+                top: 75px;
+                /*Colocar o menu na direta*/
+                left: calc(100vw - 160px);
+                margin: 0;
+                padding: 0;
+                width: 100%;        
+                flex-direction: column;
+                transition: height 1s;                
+            }
+            
+        }    
+       
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <input type ="checkbox" id="nav-button">
+            <label for="nav-button">&#9776;</label> 
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Our History</a></li>
+                <li><a href="">Get Started</a></li>
+            </ul>                  
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nihil voluptates molestiae tempora optio itaque quisquam. Harum itaque doloremque delectus natus hic rerum accusantium laboriosam porro! Et provident omnis sit.
+        </div>
+    </div>
+
+</body>
+</html>
