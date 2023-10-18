@@ -28,3 +28,5 @@ Em cada slide, encontram-se as principais observações a respeito dos tópicos 
 - 27/09/2023 - **Item flex** - [Slide](slides/aula05/aula05.pdf)
   - [Atividade em Sala](./slides/aula05/atividade/atividade-aula.html)
 - Avaliaões [Link]()
+- 18/102023 - **Media Query** - [slides](./slides/aula06/aula06.pdf)
+  - [Exemplo](./slides/aula06/exemplo01.html)
