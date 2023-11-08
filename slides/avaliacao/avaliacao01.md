@@ -47,8 +47,6 @@ style: |
 
 # Metodologia
 
-## 
-
 - O trabalho será realizado em grupo
 - A atividade será realizada ao longo do bimestre
 - Os grupos podem agendar horários com o professor para acompanhamento e dúvidas
