@@ -31,3 +31,6 @@ Em cada slide, encontram-se as principais observações a respeito dos tópicos 
   - [Exemplo](./slides/aula06/exemplo01.html)
 - 01/11/2023 - **Avaliação**
   - [Avaliação](./avaliacoes/avaliacao2/Design%20Web%20-%20Avaliação.pdf) |  [html](./avaliacoes/avaliacao2/index.html) | [css](./avaliacoes/avaliacao2/styles.css)
+
+- Avaliação
+  - Descrição: [PDF](./slides/avaliacao/avaliacao01.pdf) - [View](./slides/avaliacao/avaliacao01.md)
