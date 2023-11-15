@@ -159,7 +159,7 @@ console.log(Number.MAX_VALUE * 2)
 ---
 
 ## Aritmética em JavaScript
-<style>pre{margin-right: 45px}</style>
+<style scoped>pre{margin-right: 45px}</style>
 
 - Há outro valor importante é o **Not-a-Number** ou `NaN`.
 
@@ -186,10 +186,167 @@ h1 {
 </style>
 
 # Javascript
-## Dadas e Tempo
+## Data e Tempo
 
 ---
-## Dadas e Tempo
+## Data e Tempo
+
+<style scoped>pre{float: none}</style>
+
+- A classe `Data` representa e manipula os números que representam uma data.
+
+
+- Datas em JavaScript são objetos.
+
+```javascript
+let timestap = Data.now(); //string
+let agora = new Date(); //objeto
+let ms = now.getTime(); //milesecs
+```
+
+- Há uma vasta quantidade de métodos para manipular as informações de um objeto do tipo data.
+
+---
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+h1 {
+    text-align:center;
+}
+</style>
+# Texto
+
+---
+## Texto
+
+- As **strings** são utilizadas para representar texto em JavaScript.
+  
+- São imutáveis
+
+- Podem ser acessadas por sintaxe de array e a primeira posição é `0`:
+ ```javascript
+ let nome = "javascript";
+ //mostra o caractere 'a'
+ console.log(nome[0]);
+ ```
+---
+## Texto
+
+<style scoped>pre{float:none; margin: -10px 0px 15px}</style>
+- há várias formas de escrever **literais strings**
+```javascript
+""
+'testing'
+"3.14"
+'nome="js"'
+"usando contrações como wouldn't"
+```
+
+```javascript
+console.log('duas\nlinhas');
+
+//string de uma linha
+"one\
+two\
+tree"
+```
+
+---
+## Texto
+
+<style scoped>pre{float: none}</style>
+
+- Sequências de escape - **backslash character (\\)**
+```javascript
+//testar no console do browser
+console.log(\tjavascript)
+console.log(\nteste\n)
+console.log(\u03c0)
+```
+
+- Os caracteres de escape permitem aplicar teclas como tab, quebra de linhas entre outras. Também é possível reprentar emojis.
+
+---
+
+## Texto
+<style>pre{float:none}</style>
+- JavaScipt fornece um API rica para manipulação de String
+
+```javascript
+//remove todos os espaços
+console.log("test    ".trim())
+//repete o 'R' 10 vezes
+console.log("R".repate(10))
+```
+
+- Lembre-se que string são **imutáveis**
+  - Algumas operações aparentemente modificam a string, mas na verdade geram uma nova cópia: `"teste".toUpperCase()` 
+
+---
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+h1 {
+    text-align:center;
+}
+</style>
+# Boolean
+
+---
+
+## Boolean
+
+- Há apenas dois valores possíveis
+- 
+- Qualquer valor JavaScript pode ser convertido para boolean
+
+- Converter `undefined`, `null`, `0`, `-0`, `NaN` e `""` para booelan resulta em **false**.
+  
+- Qualquer outro valor, incluíndo objetos e arrays, são convertidos para false: `a = []; console.log(Boolean(a))`.
+
+---
+## Boolean
+
+- Os operadores lógicos e, ou e a negação são definidos como:
+  - `&&` - operador **AND**
+  - `||` - operador **OR**
+  - `!` - operador **NOT**
+
+```javascript
+let a=10, b=11;
+
+if ((a===b && b === 20) || !(a+b < 20)) {
+
+}
+```
+
+---
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+h1 {
+    text-align:center;
+}
+</style>
+# null e undefined
+---
+
+## null e undefined
 
 ---
 
