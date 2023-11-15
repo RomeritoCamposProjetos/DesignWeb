@@ -348,6 +348,44 @@ h1 {
 
 ## null e undefined
 
+- **null** indica ausência de qualquer valor na linguagem JavaScript.
+  
+- **undefined** indica uma ausência ainda mais profunda de valor.
+
+- **Undefined** é uma constante definida pela linguagem, já **null** é uma palavra reservada.
+
+- Funções sem retorno, devolvem **undefined** como valor de retorno
+
+- Comparar `null == undefined` é true, mas `null === undefined` é false.  
+
+---
+<style scoped>
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+h1 {
+    text-align:center;
+}
+</style>
+# Variáveis
+
+---
+## Variáveis
+
+- Algo fundamental na programação de computadores consiste em usar **identificadores** para representar valores.
+
+- Os identificadores podem ser **variáveis** ou **constantes**
+
+- É necessário declarar o identificador antes de utilizá-los
+
+- Para declarar uma variável podemos fazer: `let a = 10;`. 
+  
+- Para declarar uma constante podemos fazer: `const b = 10;`. Constantes não podem ser modificadas.
+
 ---
 
 ## Referências
