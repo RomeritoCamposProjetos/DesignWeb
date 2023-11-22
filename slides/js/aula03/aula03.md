@@ -40,18 +40,27 @@ Prof. Romerito Campos
 
 - Uma expressão é uma frase em JavaScript que pode ser avaliada e produz um valor.
 
+```javascript
+a + 10
+10
+a = [10, 20]
+b = {x: 10, y: 20}
+```
+
+
 ---
 
 ## Expressões Primárias
 
-- Definir literais: `Hello`, `1`, `1.5`.
-- `this`, `all`, `true`: `this` é avaliado de acordo com o contexto de sua aplicação.
+- Definir literais: `"Hello"`, `1`, `1.5`.
+- `this`, `all`, `true`: 
+  - `this` é avaliado de acordo com o contexto de sua aplicação.
 
 ---
 
 ## Inicialização de Arrays e Objetos
 
-- Para iniciar uma *array*, basta `[2, ...]`, onde os elementos do *array* são separados por vírgula.
+- Para iniciar uma *array*, basta `[2, 3, 4, 5]`, onde os elementos do *array* são separados por vírgula.
 - Por outro lado, utilizamos `{}` para objetos.
     - Exemplo de inicialização de objeto: `let o = {a: 10, b: 20}`
 
@@ -73,6 +82,8 @@ Prof. Romerito Campos
 
 - A invocação de expressão em JavaScript consiste em executar uma função `sqrt()`.
 
+- Invocação de expressões são aplicadas a funções
+
 ---
 
 ## Expressão de Criação de Objeto
@@ -93,7 +104,7 @@ Prof. Romerito Campos
 ## Operadores relacionais
 
 - Testa relacionamentos entre dois valores e retorna true ou false.
-- Testa coisas como igual, maior que, menor que, etc.
+- Testa coisas como igual, maior que, menor que, iguadade e etc.
 
 ---
 
@@ -163,6 +174,4 @@ Prof. Romerito Campos
 
 ---
 
-## Expressão de Avaliação
-
-- Fazer um exemplo em código para time.
+## Referências
