@@ -29,14 +29,9 @@ Prof. Romerito Campos
 
 ##  Plano de Aula
 
-**Objetivo:** 
-
 **Conteúdo**
 
-- Estrutura Léxica
 - Tipos/Valores/Variáveis
-- Expressões (primária, object e array, function, acesso a propriedades)
-- Declarações (Condicionais, loops)
 
 ---
 <style scoped>
@@ -161,13 +156,13 @@ console.log(Number.MAX_VALUE * 2)
 ## Aritmética em JavaScript
 <style scoped>pre{margin-right: 45px}</style>
 
-- Há outro valor importante é o **Not-a-Number** ou `NaN`.
+- Há outro valor importante que é o **Not-a-Number** ou `NaN`.
 
 - Quando realizamos uma divisão por zero, o resultado é um "não-é-número".
 
 ```javascript
 //vai produzir um NaN
-console.log(10 / 0) 
+console.log( "a" / 0) 
 ```
 - Aplique a função `typeof(NaN)` e veja o tipo de dado ao qual `NaN` pertence.
 
@@ -307,7 +302,7 @@ h1 {
 ## Boolean
 
 - Há apenas dois valores possíveis
-- 
+  
 - Qualquer valor JavaScript pode ser convertido para boolean
 
 - Converter `undefined`, `null`, `0`, `-0`, `NaN` e `""` para booelan resulta em **false**.

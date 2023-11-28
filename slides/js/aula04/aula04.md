@@ -27,6 +27,14 @@ style: |
 Prof. Romerito Campos
 
 ---
+## Declarações em JavaScript
+
+**Conteúdo**
+
+- Expressões (primária, object e array, function, acesso a propriedades)
+
+---
+
 
 ## Intro
 
@@ -63,24 +71,18 @@ Prof. Romerito Campos
 
 ## Condicionais
 
-- `if`
-- `if else`
-- `switch`
-- `if`
-- Tomar decisões
-- Exemplo:
-    
-    ```jsx
-    if (a >= 10) {
-        b = a;
-    }
-    if (a === 10) {
-        b = a;
-    }
-    
-    ```
-    
-- `switch`: exemplo com código.
+- `if`, `if else`, `switch`, 
+- Tomada de decisão
+   
+```javascript
+if (a >= 10) {
+    b = a;
+}
+if (a === 10) {
+    b = a;
+}
+
+```
 
 ---
 
@@ -144,10 +146,12 @@ let a = true;
 while () {
     //loop infinito
 }
+```
 
+```javascript
 while (a) {
     //executa apenas uma vez
-    a = a!;
+    a = !a;
 }
 
 ```
@@ -187,16 +191,17 @@ for (inicializar; testar; incrementar) {
 ```
 
 ```javascript
+//adicionar 10 números ao array 'a'.
 a = [];
-for (let i = 0; i++; i++) {
+for (let i = 0; i<=10>; i++) {
     a[i] = i;
 }
 ```
 
 ```javascript
 let a = [];
-//observeo incremento
-for (let i = 0; i++; a[i++]);
+//observe incremento
+for (let i = 0; i<10; a[i] = i++);
 ```
 
 ---
@@ -215,17 +220,19 @@ Exemplo de uso de `Object.keys(obj)` e `Object.values(obj)`.
 ---
 ## `for/of`
 
-- Iteração sobre array
+- Iteração sobre array e objtos
 
 ```javascript
+//exemplo com array
 let a = [1, 2, 3, 4, 5]
 for (let i of a) {
     console.log(i)
 }
 ```
 
-- Iteração sobre objetos
+
 ```javascript
+//exemplo com objto
 let a = {y: 'jose', x: 'teste'}
 for (let i of Object.values(a)) {
     console.log(i)
@@ -310,9 +317,8 @@ function teste() {
 ```
 
 
-
-Outros jumps são `yield`, `throw` e `try/catch`
-
 ---
 
 ## Referências
+
+FLANAGAN, D. **JavaScript - The Definitive Guide**. 7. ed. Sebastopol, CA, USA: O’Reilly Media, 2020.

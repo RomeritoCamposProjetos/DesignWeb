@@ -34,9 +34,6 @@ Prof. Romerito Campos
 **Conteúdo**
 
 - Estrutura Léxica
-- Tipos/Valores/Variáveis
-- Expressões (primária, object e array, function, acesso a propriedades)
-- Declarações (Condicionais, loops)
 
 ---
 
@@ -64,6 +61,7 @@ Prof. Romerito Campos
 - Desde 2010, após o surgimento o [Node](https://nodejs.org/en), O java script pode acessar recursos do sistema operacional (Ler e Escrever arquivos, usar a rede etc).
 
 ---
+
 <style scoped>
 section {
     display: flex;
@@ -142,11 +140,11 @@ code {
 ```javascript
 //uso do IF ao invés de if
 IF (10 === 10) {
-    //U*Uncaught ReferenceError: B is not defined**
+    //**Uncaught ReferenceError: B is not defined**
 }
 ```
 
-***Uncaught ReferenceError: B is not defined****
+**Uncaught ReferenceError: IF is not defined**
 
 ---
 
@@ -165,7 +163,7 @@ code {
 }
 </style>
 
-- Comentários
+- Comentários: Há três formas de comentar o código.
 
 ```javascript
 // cometnário
@@ -182,7 +180,7 @@ code {
 
 # Estrutura Léxica
 
-- Literais: valores que podem ser aplicados diretamente no código
+- **Literais**: valores que podem ser aplicados diretamente no código
   
 ```javascript
 12

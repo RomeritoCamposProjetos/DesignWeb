@@ -32,7 +32,6 @@ Prof. Romerito Campos
 **Conteúdo**
 
 - Expressões (primária, object e array, function, acesso a propriedades)
-- Declarações (Condicionais, loops)
 
 ---
 
@@ -80,7 +79,7 @@ b = {x: 10, y: 20}
 
 ## Invocar Expressões
 
-- A invocação de expressão em JavaScript consiste em executar uma função `sqrt()`.
+- A invocação de expressão em JavaScript consiste em executar uma função `raiz()` (apresentada no slide anterior).
 
 - Invocação de expressões são aplicadas a funções
 
@@ -105,6 +104,10 @@ b = {x: 10, y: 20}
 
 - Testa relacionamentos entre dois valores e retorna true ou false.
 - Testa coisas como igual, maior que, menor que, iguadade e etc.
+  - Operador de Igualdade
+  - Operador de comparação
+  - Operador In
+  - Operador lógico
 
 ---
 
@@ -118,7 +121,7 @@ b = {x: 10, y: 20}
 
 ### Operador de comparação
 
-- `a,>, <=, e> =`.
+- `<, >, <=, => =`.
 - Pode compor qualquer coisa, mas é projetado para números e strings. Converte os outros tipos.
 - A comparação de string leva em conta Case Sensitive.
 
@@ -175,3 +178,5 @@ b = {x: 10, y: 20}
 ---
 
 ## Referências
+
+FLANAGAN, D. **JavaScript - The Definitive Guide**. 7. ed. Sebastopol, CA, USA: O’Reilly Media, 2020.
