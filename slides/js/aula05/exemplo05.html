@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;            
+            flex-direction: column;            
+        }
+        .form {
+            flex: 0 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;            
+        }
+       
+        .pessoas {
+            flex: 1 1;            
+            width: 100%;
+            border-top: 1px solid black;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        .pessoas p{
+            flex: 0 0;
+            font-size: 32px;
+            padding: 10px 20px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="form">
+            <input type="text" name="name" id="name">
+            <input type="text" name="sname" id="sname">
+            <button id="enviar">Enviar</button>
+        </div>       
+
+        <div class="pessoas" id="pessoas">
+            
+        </div>
+    </div>
+
+    <script src="./script05.js"></script>
+</body>
+</html>
