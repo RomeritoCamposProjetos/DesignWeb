@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    
+
+</head>
+<body>
+
+    <form action="#" name="meuform">
+        <div class="">
+            <input type="text" name="email">
+        </div>
+        <div>
+            <input type="text" name="password">
+        </div>
+        <button>Enviar</button>
+        
+    </form>
+
+    <script>
+
+        const form  = document.forms.meuform;
+        
+        let handler = (event) => {
+            alert(event.target.name + " Foi modificado");            
+        }        
+        form.addEventListener ('change', handler)
+
+    </script>
+    
+</body>
+</html>
