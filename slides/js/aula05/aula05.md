@@ -23,7 +23,7 @@ style: |
 
 
 ![w:120 h:120](../../../assets/ifrn-vertical.png)
-# Declarações em JavaScript
+# Eventos e Manipulação de elementos
 Prof. Romerito Campos
 
 ---
