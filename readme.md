@@ -39,3 +39,4 @@ Em cada slide, encontram-se as principais observações a respeito dos tópicos 
 - 16/11/2023 - **Java Script - Tipos/Valores/Variáveis** - [Slide](slides/js/aula02/aula02.pdf)
 - 22/11/2023 - **Java Script - Expressões (primária, object e array, function, acesso a propriedades)** - [Slide](slides/js/aula03/aula03.pdf)
 - 23/11/2023 - **Java Script - Declarações em JavaScript** - [Slide](slides/js/aula04/aula04.pdf)
+- 06/12/2023 - **Eventos e Manipulação de elementos HTML** - [Slide](slides/js/aula05/aula05.pdf)
