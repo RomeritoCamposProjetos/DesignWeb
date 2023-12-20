@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 80vh;
+            width: 80%;
+            position: relative;
+            border: 1px solid black;
+            margin: 25px;
+        }
+        .bola {
+            background-color: black;
+            border: 2px solid yellow;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            position: absolute;
+        }
+
+        @keyframes example {
+            from {background-color: black;}
+            to {background-color: yellow;}
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="bola" data-x="0" data-y="0" data-top="0" data-left="0">
+            <input type="hidden" name="" value="0" id="input">
+        </div>
+        
+    </div>
+
+    <script src="bola.js"></script>
+    
+</body>
+</html>
